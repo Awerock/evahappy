@@ -1,0 +1,31 @@
+.header {
+    background: #020e42;
+    min-height: 932px;
+    &__title {
+        text-align: center;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        letter-spacing: 1px;
+        line-height: 1;
+        &-h1 {
+            background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+            background-size: cover;
+            color: transparent;
+            -moz-background-clip: text;
+            -webkit-background-clip: text;
+            text-transform: uppercase;
+            font-size: 60px;
+        }
+    }
+    &__descr {
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-weight: 100;
+        font-size: 15px;
+        color: #ffffff6c;
+    } 
+}
