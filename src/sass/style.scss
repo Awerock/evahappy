@@ -19,4 +19,17 @@ a {
     position: relative;
 }
 
+.title {
+    text-align: center;
+    color: #FFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+
+
 @import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/gift';

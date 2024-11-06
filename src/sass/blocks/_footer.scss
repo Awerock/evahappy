@@ -1,0 +1,21 @@
+.footer {
+    min-height: 60px;
+	background-color: #000000;
+	padding: 40px 0;
+    &__name {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        & a {
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                color: #020e42;
+            }
+        }
+    }
+}
