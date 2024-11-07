@@ -1,0 +1,13 @@
+.congratulation {
+    background: #5c0079;
+    min-height: 440px;
+    padding: 40px 0;
+    &__text {
+        display: block;
+        width: 100%;
+        color: #fff;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 100;
+    }
+}

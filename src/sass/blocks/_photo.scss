@@ -1,0 +1,32 @@
+.photo {
+    background: #020e42;
+    min-height: 932px;
+    padding: 40px 0;
+    &__wrapper {
+        margin-top: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__card {
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        padding: 15px;
+        background-color: #FFF;
+        &-img {
+            width: 100%;
+        }
+        &-descr {
+            margin-top: 10px;
+            font-family: 'Roboto';
+            font-weight: 600;
+            font-size: 15px;
+            color: #020e42;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
